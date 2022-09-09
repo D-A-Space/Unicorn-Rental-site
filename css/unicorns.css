@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#uniSec {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 500px);
+  gap: 30px;
+  justify-content: center;
+  height: 100%;
+}
+.uni-card {
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 20rem;
+  min-width: 400px;
+  position: relative;
+}
+.uni-card img {
+  height: 70%;
+}
+#uniCardInfo {
+  position: absolute;
+  height: 90%;
+  width: 90%;
+  transition: 2s;
+  transform: translateY(480px);
+  border-radius: 50px 50px 0px 0px;
+  background: rgba(255, 255, 255, 0.49);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.9px);
+  -webkit-backdrop-filter: blur(4.9px);
+  padding: 10%;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  overflow-y: scroll;
+}
+#uniCardInfo::-webkit-scrollbar {
+  display: none;
+}
+.uni-card:hover #uniCardInfo {
+  transform: translateY(30px);
+}
+#coin-img {
+  align-self: center;
+  width: 30px;
+}
+
+/* card btn */
+.bookBtn {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.bookBtn:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-bookBtn 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-bookBtn {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.bookBtn:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #161050;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+/* card btn */
