@@ -16,7 +16,15 @@
   </head>
   <body>
     <header id="header">
-      <img src="./media/logo.jpeg" alt="" id="logo" />
+      <!-- <p>made by: azzie & duaa</p> -->
+      <img
+        data-bs-toggle="tooltip"
+        data-bs-placement="bottom"
+        data-bs-title="Dream Makers: DUAA & AZZIE"
+        src="./media/logo.jpeg"
+        alt=""
+        id="logo"
+      />
       <a href="#registrationFormModal" id="register" data-bs-toggle="modal"
         >Register</a
       >
@@ -282,6 +290,9 @@
       </div>
     </header>
     <main>
+      <!-- ------------------------ -->
+
+      <!-- ---------------------------------------------------- -->
       <section id="hero" class="container">
         <figure>
           <img class="heroImg" src="./media/banner-1.png" alt="" />
@@ -289,7 +300,7 @@
         </figure>
       </section>
       <section id="filterSec">
-        <h1>what is your deepest darkest desire?</h1>
+        <h1>Choose your companion</h1>
         <div class="btns-g">
           <button class="filterBtn" id="natureBtnF">Nature Trip</button>
           <button class="filterBtn" id="spaceBtnF">To The Space</button>
@@ -308,9 +319,7 @@
         aria-labelledby="offcanvasBottomLabel"
       >
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasBottomLabel">
-            Offcanvas bottom
-          </h5>
+          <h5 class="offcanvas-title" id="offcanvasBottomLabel"></h5>
           <button
             type="button"
             class="btn-close"
@@ -318,7 +327,26 @@
             aria-label="Close"
           ></button>
         </div>
-        <div class="offcanvas-body">...</div>
+        <div class="offcanvas-body">
+          <form id="bookForm">
+            <label for="">So you gonna have it from :</label> <br />
+            <input
+              class="form-control w-25"
+              required
+              id="dateFrom"
+              type="date"
+            />
+            <br />
+            <label for="">To:</label> <br />
+            <input
+              class="form-control w-25"
+              required
+              id="dateTo"
+              type="date"
+            /><br />
+            <button class="filterBtn mt-3" type="submit">Book</button>
+          </form>
+        </div>
       </div>
       <!-- off canvas end -->
     </main>

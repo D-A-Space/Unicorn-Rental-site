@@ -5,7 +5,7 @@
 
 #uniSec {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 500px);
+  grid-template-columns: repeat(auto-fit, 300px);
   gap: 30px;
   justify-content: center;
   height: 100%;
@@ -18,8 +18,9 @@
   align-items: center;
   overflow: hidden;
   height: 20rem;
-  min-width: 400px;
+  min-width: 300px;
   position: relative;
+  z-index: 10;
 }
 #uniImg {
   z-index: -1;
