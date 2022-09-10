@@ -8,7 +8,8 @@
         "skills":"She can hide so well in green bushes with large leaves, that thanks to her camouflage nobody recognizes her.",
         "price":"300",
         "img":"https://static.wikia.nocookie.net/miaandme/images/1/1a/Yolika1.png",
-        "species":"Nature Unicorns"
+        "species":"Nature",
+        "id":0
     },
 
     {  
@@ -18,7 +19,8 @@
         "skills":"He can hide so well between trees and branches, that thanks to his camouflage nobody recognizes him.",
         "price":"350",
         "img":"https://static.wikia.nocookie.net/miaandme/images/6/63/Zato1.png",
-        "species":"Nature Unicorns"
+        "species":"Nature",
+        "id":1
     },
 
     {  
@@ -28,17 +30,19 @@
         "skills":"He can shoot a flaming ring from his horn. It can create fire and control it.",
         "price":"231",
         "img":"https://static.wikia.nocookie.net/miaandme/images/4/40/Feuereinhorn.png",
-        "species":"Elemental Unicorn"
+        "species":"Space",
+        "id":2
     },
 
     {  
-        "name":"icey",
+        "name":"Icey",
         "age":"31",
-        "description":"The Ice Unicorn is a kind and brave Unicorn.",
+        "description":"Icey is kind and brave Unicorn.",
         "skills":"He can use his horn to make a powerful blast of ice.",
         "price":"546",
         "img":"https://static.wikia.nocookie.net/miaandme/images/7/77/Ice.png",
-        "species":"Elemental Unicorn"
+        "species":"Nature",
+        "id":3
     },
 
     {  
@@ -48,7 +52,121 @@
         "skills":"His streamlined body allows him to run long distances very fast.",
         "price":"231",
         "img":"https://static.wikia.nocookie.net/miaandme/images/1/15/Rando.png",
-        "species":"Runner"
+        "species":"Party",
+        "id":4
+    },
+
+    {
+        "name":"Volo",
+        "age":"35",
+        "description":"Volo is the unicorn of the stars.",
+        "skills":"He is so good at locations is space, you will get the best ride with him and never get lost.",
+        "price":"512",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/1/14/Volo.png",
+        "species":"Space",
+        "id":5
+      },
+    {
+        "name":"Sito",
+        "age":"17",
+        "description":"Sito enjoys dancing to the music, This is why he can often be found very close to the parties.",
+        "skills":" He often visits his friends to show them his latest stunts",
+        "price":"256",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/f/f1/Sito.png",
+        "species":"Party",
+        "id":6
+      },
+    {
+        "name":"Sinette",
+        "age":"18",
+        "description":"Sinette loves to play with her friends and teach them how to jump through waterfalls.",
+        "skills":"She loves to dance around her nose",
+        "price":"354",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/d/d5/Sinette.png",
+        "species":"Party",
+        "id":7
+      },
+    {
+        "name":"Ono",
+        "age":"27",
+        "description":"Ono is the leader of all the unicorns",
+        "skills":"he likes to practice astronomy and fly between galaxies.",
+        "price":"491",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/b/b3/Ono1.png",
+        "species":"Space",
+        "id":8
+      },
+    {
+        "name":"Lavera",
+        "age":"21",
+        "description":"Because she is so fun to be around, Lavera is a perfect babysitter for the kids.",
+        "skills":"She looks after the kids and always has an eye on every one of them.",
+        "price":"517",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/9/9d/Lavera.png",
+        "species":"Party",
+        "id":9
+      },
+    {
+        "name":"Lyria",
+        "age":"32",
+        "description":"She is a very sweet and smart unicorn.",
+        "skills":"She is very good at plants so its a big joy to go out with in the nature.",
+        "price":"193",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/7/78/Lyria.png",
+        "species":"Nature",
+        "id":10
+      },
+    {
+        "name":"Balanda",
+        "age":"26",
+        "description":"She's a descendant of the Earth and Water Unicorn.",
+        "skills":"She can hide so well in pink-colored flowering bushes and flowers, that thanks to her camouflage nobody recognizes her.",
+        "price":"427",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/4/49/Balanda1.png",
+        "species":"Nature",
+        "id":11
+      },
+    {
+        "name":"Onchao",
+        "age":"15",
+        "description":"He's a rare unicorn with a golden horn and wings",
+        "skills":"With a touch of his horn, Onchao can make plants grow and creatures heal.",
+        "price":"468",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/a/a6/Mia-and-me-11.jpg",
+        "species":"Nature",
+        "id":12
+    },
+    {
+        "name":"Crystia",
+        "age":"32",
+        "description":"She is a very rare unicorn.",
+        "skills":"She can open a portal between world and other planets.",
+        "price":"381",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/8/8f/Kristall-e1438085563917.png",
+        "species":"Space",
+        "id":13
+    },
+    {
+        "name":"Moon",
+        "age":"40",
+        "description":"Moon is the guardian of the Moon",
+        "skills":"He can make the moon bigger for the sake of the good nights.",
+        "price":"222",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/f/f4/Mond.png",
+        "species":"Space",
+        "id":14
+    },
+    {
+        "name":"Era",
+        "age":"28",
+        "description":"Era is the keeper of the earth.",
+        "skills":"She can control earthquakes and create deep tunnels inside the ground.  ",
+        "price":"812",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/0/00/Erdeinhorn.png",
+        "species":"Space",
+        "id":15
     }
+
+   
     
 ]
