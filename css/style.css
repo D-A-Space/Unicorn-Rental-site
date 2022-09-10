@@ -69,6 +69,7 @@
 #filterSec h1 {
   text-align: center;
   padding: 20px;
+  color: white;
 }
 .filterBtn {
   padding: 0.6em 2em;
@@ -138,7 +139,7 @@
 }
 /* filterSec */
 #hero {
-  margin-top: 30px;
+  padding-top: 30px;
   width: 100%;
 }
 .heroImg {
@@ -160,4 +161,23 @@ figcaption {
   font-weight: bold;
   color: white;
   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+main {
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+}
+#bookForm label {
+  margin-bottom: 1rem;
+  font-size: larger;
+  font-weight: bold;
 }

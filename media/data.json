@@ -126,16 +126,7 @@
         "species":"Nature",
         "id":11
       },
-    {
-        "name":"Onchao",
-        "age":"15",
-        "description":"He's a rare unicorn with a golden horn and wings",
-        "skills":"With a touch of his horn, Onchao can make plants grow and creatures heal.",
-        "price":"468",
-        "img":"https://static.wikia.nocookie.net/miaandme/images/a/a6/Mia-and-me-11.jpg",
-        "species":"Nature",
-        "id":12
-    },
+
     {
         "name":"Crystia",
         "age":"32",
@@ -144,7 +135,7 @@
         "price":"381",
         "img":"https://static.wikia.nocookie.net/miaandme/images/8/8f/Kristall-e1438085563917.png",
         "species":"Space",
-        "id":13
+        "id":12
     },
     {
         "name":"Moon",
@@ -154,7 +145,7 @@
         "price":"222",
         "img":"https://static.wikia.nocookie.net/miaandme/images/f/f4/Mond.png",
         "species":"Space",
-        "id":14
+        "id":13
     },
     {
         "name":"Era",
@@ -164,7 +155,7 @@
         "price":"812",
         "img":"https://static.wikia.nocookie.net/miaandme/images/0/00/Erdeinhorn.png",
         "species":"Space",
-        "id":15
+        "id":14
     }
 
    
