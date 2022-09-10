@@ -1,0 +1,54 @@
+[
+   
+  
+    {  
+        "name":"Yolika",
+        "age":"25",
+        "description":"She's a descendant of the Earth and Water Unicorn.",
+        "skills":"She can hide so well in green bushes with large leaves, that thanks to her camouflage nobody recognizes her.",
+        "price":"300",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/1/1a/Yolika1.png",
+        "species":"Nature Unicorns"
+    },
+
+    {  
+        "name":"Zato",
+        "age":"27",
+        "description":"He's a descendant of the Earth and Water unicorns.",
+        "skills":"He can hide so well between trees and branches, that thanks to his camouflage nobody recognizes him.",
+        "price":"350",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/6/63/Zato1.png",
+        "species":"Nature Unicorns"
+    },
+
+    {  
+        "name":"Firo",
+        "age":"22",
+        "description":"The Fire Unicorn is the master of the element Fire.",
+        "skills":"He can shoot a flaming ring from his horn. It can create fire and control it.",
+        "price":"231",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/4/40/Feuereinhorn.png",
+        "species":"Elemental Unicorn"
+    },
+
+    {  
+        "name":"icey",
+        "age":"31",
+        "description":"The Ice Unicorn is a kind and brave Unicorn.",
+        "skills":"He can use his horn to make a powerful blast of ice.",
+        "price":"546",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/7/77/Ice.png",
+        "species":"Elemental Unicorn"
+    },
+
+    {  
+        "name":"Rando",
+        "age":"20",
+        "description":"Rando is the fastest among the Unicorns",
+        "skills":"His streamlined body allows him to run long distances very fast.",
+        "price":"231",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/1/15/Rando.png",
+        "species":"Runner"
+    }
+    
+]
