@@ -11,6 +11,7 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/unicorns.css" />
 		<title>UniRide</title>
 	</head>
 	<body>
@@ -51,13 +52,17 @@
 														>
 															<i class="fas fa-user fa-lg me-3 fa-fw"></i>
 															<div class="form-outline flex-fill mb-0">
-																<label class="form-label" for="form3Example1c"
+																<label
+																	class="form-label"
+																	for="name-registration"
 																	>Your Name</label
 																>
 																<input
 																	type="text"
-																	id="form3Example1c"
+																	name="name"
+																	id="name-registration"
 																	class="form-control"
+																	required
 																/>
 															</div>
 														</div>
@@ -67,13 +72,17 @@
 														>
 															<i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
 															<div class="form-outline flex-fill mb-0">
-																<label class="form-label" for="form3Example3c"
+																<label
+																	class="form-label"
+																	for="email-registration"
 																	>Your Email</label
 																>
 																<input
 																	type="email"
-																	id="form3Example3c"
+																	name="email"
+																	id="email-registration"
 																	class="form-control"
+																	required
 																/>
 															</div>
 														</div>
@@ -83,13 +92,17 @@
 														>
 															<i class="fas fa-lock fa-lg me-3 fa-fw"></i>
 															<div class="form-outline flex-fill mb-0">
-																<label class="form-label" for="form3Example4c"
+																<label
+																	class="form-label"
+																	for="password-registration"
 																	>Password</label
 																>
 																<input
+																	name="password"
 																	type="password"
-																	id="form3Example4c"
+																	id="password-registration"
 																	class="form-control"
+																	required
 																/>
 															</div>
 														</div>
@@ -99,13 +112,17 @@
 														>
 															<i class="fas fa-key fa-lg me-3 fa-fw"></i>
 															<div class="form-outline flex-fill mb-0">
-																<label class="form-label" for="form3Example4cd"
+																<label
+																	class="form-label"
+																	for="password-confirm-registration"
 																	>Repeat your password</label
 																>
 																<input
 																	type="password"
-																	id="form3Example4cd"
+																	name="passwordConfirm"
+																	id="password-confirm-registration"
 																	class="form-control"
+																	required
 																/>
 															</div>
 														</div>
@@ -115,6 +132,7 @@
 														>
 															<button
 																type="submit"
+																id="registerBtn"
 																class="btn btn-md"
 																style="
 																	background-color: #161050 !important;
@@ -196,13 +214,15 @@
 														>
 															<i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
 															<div class="form-outline flex-fill mb-0">
-																<label class="form-label" for="form3Example3c"
+																<label class="form-label" for="email-login"
 																	>Your Email</label
 																>
 																<input
 																	type="email"
-																	id="form3Example3c"
+																	name="email-login"
+																	id="emailLogin"
 																	class="form-control"
+																	required
 																/>
 															</div>
 														</div>
@@ -212,13 +232,15 @@
 														>
 															<i class="fas fa-lock fa-lg me-3 fa-fw"></i>
 															<div class="form-outline flex-fill mb-0">
-																<label class="form-label" for="form3Example4c"
+																<label class="form-label" for="password-login"
 																	>Password</label
 																>
 																<input
 																	type="password"
-																	id="form3Example4c"
+																	id="password-login"
+																	name="passwordLogin"
 																	class="form-control"
+																	required
 																/>
 															</div>
 														</div>
@@ -228,6 +250,7 @@
 														>
 															<button
 																type="submit"
+																id="loginBtn"
 																class="btn btn-md"
 																style="
 																	background-color: #161050 !important;
@@ -254,7 +277,6 @@
 								</div>
 							</div>
 						</div>
-						<!-- </section> -->
 					</div>
 				</div>
 			</div>

@@ -9,12 +9,20 @@
 	/* border-bottom: 1px solid grey; */
 	box-shadow: 0 6px 4px -2px rgba(128, 128, 128, 0.736);
 }
+#header > p {
+	display: inline-block;
+	position: absolute;
+	right: 10%;
+	top: 32%;
+	color: #618df8;
+}
 #logo {
 	display: inline-block;
 	/* margin: 0 auto; */
 	width: 62.6px;
 	position: absolute;
-	left: 48%;
+	left: 50%;
+	transform: translate(-50%, 0);
 }
 #register {
 	display: inline-block;
@@ -29,4 +37,23 @@
 #loginForm p,
 #loginForm label {
 	color: #161050 !important;
+}
+
+@media (max-width: 1200px) {
+	#header > p {
+		display: inline-block;
+		position: absolute;
+		left: 5%;
+		top: 32%;
+		color: #618df8;
+	}
+
+	#register {
+		display: inline-block;
+		position: absolute;
+		right: 5%;
+		top: 32%;
+		text-decoration: none;
+		color: orange;
+	}
 }
