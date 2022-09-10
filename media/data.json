@@ -8,7 +8,7 @@
         "skills":"She can hide so well in green bushes with large leaves, that thanks to her camouflage nobody recognizes her.",
         "price":"300",
         "img":"https://static.wikia.nocookie.net/miaandme/images/1/1a/Yolika1.png",
-        "species":"Nature Unicorns",
+        "species":"Nature",
         "id":0
     },
 
@@ -19,7 +19,7 @@
         "skills":"He can hide so well between trees and branches, that thanks to his camouflage nobody recognizes him.",
         "price":"350",
         "img":"https://static.wikia.nocookie.net/miaandme/images/6/63/Zato1.png",
-        "species":"Nature Unicorns",
+        "species":"Nature",
         "id":1
     },
 
@@ -30,18 +30,18 @@
         "skills":"He can shoot a flaming ring from his horn. It can create fire and control it.",
         "price":"231",
         "img":"https://static.wikia.nocookie.net/miaandme/images/4/40/Feuereinhorn.png",
-        "species":"Elemental Unicorn",
+        "species":"Space",
         "id":2
     },
 
     {  
-        "name":"icey",
+        "name":"Icey",
         "age":"31",
-        "description":"The Ice Unicorn is a kind and brave Unicorn.",
+        "description":"Icey is kind and brave Unicorn.",
         "skills":"He can use his horn to make a powerful blast of ice.",
         "price":"546",
         "img":"https://static.wikia.nocookie.net/miaandme/images/7/77/Ice.png",
-        "species":"Elemental Unicorn",
+        "species":"Nature",
         "id":3
     },
 
@@ -52,7 +52,7 @@
         "skills":"His streamlined body allows him to run long distances very fast.",
         "price":"231",
         "img":"https://static.wikia.nocookie.net/miaandme/images/1/15/Rando.png",
-        "species":"Runner",
+        "species":"Party",
         "id":4
     },
 
@@ -125,7 +125,47 @@
         "img":"https://static.wikia.nocookie.net/miaandme/images/4/49/Balanda1.png",
         "species":"Nature",
         "id":11
-      }
+      },
+    {
+        "name":"Onchao",
+        "age":"15",
+        "description":"He's a rare unicorn with a golden horn and wings",
+        "skills":"With a touch of his horn, Onchao can make plants grow and creatures heal.",
+        "price":"468",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/a/a6/Mia-and-me-11.jpg",
+        "species":"Nature",
+        "id":12
+    },
+    {
+        "name":"Crystia",
+        "age":"32",
+        "description":"She is a very rare unicorn.",
+        "skills":"She can open a portal between world and other planets.",
+        "price":"381",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/8/8f/Kristall-e1438085563917.png",
+        "species":"Space",
+        "id":13
+    },
+    {
+        "name":"Moon",
+        "age":"40",
+        "description":"Moon is the guardian of the Moon",
+        "skills":"He can make the moon bigger for the sake of the good nights.",
+        "price":"222",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/f/f4/Mond.png",
+        "species":"Space",
+        "id":14
+    },
+    {
+        "name":"Era",
+        "age":"28",
+        "description":"Era is the keeper of the earth.",
+        "skills":"She can control earthquakes and create deep tunnels inside the ground.  ",
+        "price":"812",
+        "img":"https://static.wikia.nocookie.net/miaandme/images/0/00/Erdeinhorn.png",
+        "species":"Space",
+        "id":15
+    }
 
    
     

@@ -1,13 +1,5 @@
 // https://stackoverflow.com/questions/47243154/how-to-send-whatsapp-message-via-javascript
-// {
-//   "name":"",
-//   "age":"",
-//   "description":"",
-//   "skills":"",
-//   "price":"",
-//   "img":"",
-//   "species":""
-// },
+
 let uniCardsSec = document.getElementById("uniSec");
 
 class Unicorn {
@@ -49,7 +41,7 @@ function unicornCard(unicron) {
       </p>
       <button onClick="bookRide(${unicron.id})" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" class="bookBtn">Uni Book</button>
     </div>
-    <img src="${unicron.img}" alt="" />
+    <img id="uniImg" src="${unicron.img}" alt="" />
   </div>`;
 }
 

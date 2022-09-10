@@ -21,8 +21,21 @@
   min-width: 400px;
   position: relative;
 }
-.uni-card img {
+#uniImg {
+  z-index: -1;
   height: 70%;
+  animation: fly 4s ease-in-out infinite;
+}
+@keyframes fly {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 #uniCardInfo {
   position: absolute;
