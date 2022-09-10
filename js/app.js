@@ -1,26 +1,66 @@
 // https://stackoverflow.com/questions/47243154/how-to-send-whatsapp-message-via-javascript
+// {
+//   "name":"",
+//   "age":"",
+//   "description":"",
+//   "skills":"",
+//   "price":"",
+//   "img":"",
+//   "species":""
+// },
 let uniCardsSec = document.getElementById("uniSec");
-function unicornCard() {
+
+class Unicorn {
+  constructor(uniName, age, description, skills, price, img, tag) {
+    this.uniName = uniName;
+    this.age = age;
+    this.description = description;
+    this.skills = skills;
+    this.price = price;
+    this.img = img;
+    this.tag = tag;
+  }
+}
+let unicornOne = new Unicorn(
+  "a111111sdas",
+  "Asdasda",
+  "asdasdasd",
+  "asdas",
+  "asdasd",
+  "./media/h1.png",
+  "dadasd"
+);
+console.log(unicornOne);
+
+function unicornCard(unicron) {
   uniCardsSec.innerHTML += ` <div class="uni-card">
     <div id="uniCardInfo">
-      <p id="U-Name">Name: Start Unicorn</p>
-      <p id="U-Age">Age: 300 years</p>
+      <p id="U-Name">Name: ${unicron.name}</p>
+      <p id="U-Age">Age: ${unicron.age} years</p>
       <p id="U-Description">
-        Description: Cute magical unicorn came all the from another far
-        galaxy to join us on earth and make it a better place
+        Description: ${unicron.description}.
       </p>
       <p id="U-Skills">
-        Skills: This unicorn can take you all the way to the moon and back
-        within just 3 minutes
+        Skills: ${unicron.skills}
       </p>
       <p id="U-Price">
-        Price: 300
+        Price: ${unicron.price}
         <span><img id="coin-img" src="./media/coin.png" alt="" /></span>
       </p>
-      <button class="bookBtn" id="">Uni Book</button>
+      <button class="bookBtn" id="${unicron.tag}">Uni Book</button>
     </div>
-    <img src="./media/Sternen-e1438085763717.webp" alt="" />
+    <img src="${unicron.img}" alt="" />
   </div>`;
 }
-unicornCard();
-unicornCard();
+
+function getData() {
+  fetch("./media/data.json")
+    .then((res) => res.json())
+    .then((data) => uniCardsJson(data));
+}
+function uniCardsJson(data) {
+  data.forEach((element) => {
+    unicornCard(element);
+  });
+}
+getData();
