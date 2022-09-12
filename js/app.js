@@ -88,7 +88,7 @@ form1.addEventListener("submit", (e) => {
   console.log(dateTo.value);
   if (userInfo) {
     window.open(
-      `https://api.whatsapp.com/send?phone=962778086357&text=Hello%20there%20I%27m%20${userInfo.name}%20I%20found%20this%20amazing%20unicorn%20called%20${text.innerHTML}%20and%20I%20would%20like%20to%20spend%20some%20time%20with%20them%20from%20${dateFrom.value}%20to%20${dateTo.value}`,
+      `https://wa.me/send?phone=962778086357&text=Hello%20there%20I%27m%20${userInfo.name}%20I%20found%20this%20amazing%20unicorn%20called%20${text.innerHTML}%20and%20I%20would%20like%20to%20spend%20some%20time%20with%20them%20from%20${dateFrom.value}%20to%20${dateTo.value}`,
       "_blank"
     );
   } else {
